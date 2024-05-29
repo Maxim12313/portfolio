@@ -14,7 +14,7 @@ export default function About() {
             <br />
             I began coding in 
             <highlight> 2019</highlight> and have 
-            since tried my hand at array of different topics. I started with game development,
+            since tried my hand at an array of different topics. I started with game development,
             experimented with AI, visited web development, dabbled in cybersecurity, and tried
             some competitive programming. 
             <br />
