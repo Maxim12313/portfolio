@@ -8,7 +8,7 @@ export default function BigText() {
           <h1 className="text-[78px] text-light-slate">I code things on the web.</h1>
           <div className="text-wrap w-3/4">
             <p className="my-10">
-              I'm an aspring software engineering studying 
+              I am an aspring software engineering studying 
               <span className="font-medium text-color4"> Computer Engineering </span>
               at the 
               <span className="font-medium text-color4"> University of Michigan</span>. 
