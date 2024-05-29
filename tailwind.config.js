@@ -17,6 +17,10 @@ module.exports = {
         "lightest-slate": "var(--lightest-slate)",
         "white": "var(--white)"
       },
+      fontFamily: {
+        "sans" : "var(--font-sans)",
+        "mono" : "var(--font-mono)"
+      }
     },
   },
   plugins: [],
