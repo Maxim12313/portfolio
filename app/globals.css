@@ -44,8 +44,14 @@ h2 {
   font-size: 28px;
 }
 
-
 h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: lightest-slate;
+}
+
+
+h4 {
   font-weight: 400;
   font-family: var(--font-mono);
   color: var(--color4);

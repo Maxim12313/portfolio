@@ -1,10 +1,9 @@
 import Image from "next/image"
 import Title from "./Title"
-import spaceship from './spaceship.png'
 
 export default function About() {
   return (
-    <div className="flex flex-row w-1/2 mb-10">
+    <div className="flex flex-row w-1/2 mb-52">
       <div className="flex flex-col items-start">
         <Title number="1." description="About Me" />
         <div className="flex flex-row items-center space-x-5">
