@@ -17,6 +17,7 @@ export default function ProjectBox({ name, description, image, tags, link }) {
       className="w-full flex flex-row space-x-4 
                  hover:backdrop-brightness-110 p-2 rounded-xl m-5 items-start"
       href={link}
+      target="_blank"
     >
       <Image 
         src={image}
