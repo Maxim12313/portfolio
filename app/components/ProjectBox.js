@@ -15,7 +15,7 @@ export default function ProjectBox({ name, description, image, tags, link }) {
   return(
     <a 
       className="w-full flex flex-row space-x-4 
-                 hover:backdrop-brightness-110 p-2 rounded-xl m-5 items-start"
+                 hover:backdrop-brightness-125 p-3 rounded-xl m-5 items-start"
       href={link}
       target="_blank"
     >
@@ -24,7 +24,7 @@ export default function ProjectBox({ name, description, image, tags, link }) {
         height={0}
         width={0}
         alt="preview image"
-        className="rounded-lg h-auto max-w-40"
+        className="rounded-lg max-w-20"
       />      
       <div className="flex flex-col space-y-2">
         <h2 className="text-xl text-lightest-slate">{ name }</h2>

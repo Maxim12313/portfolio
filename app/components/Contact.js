@@ -1,7 +1,7 @@
 import Section from "./Section"
 
 export default function Contact() {
-  const number = "3. ";
+  const number = "3.";
   const description = "Contact Me";
   const content = (
     <div className="flex flex-row w-full items-center">
@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
       <div className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl">
           <a 
-            className="font-mono text-color4 text-xl"
+            className="font-mono text-color4 text-xl flex-wrap"
             href="mailto:maximk@umich.edu"
             target="_blank"
           >
