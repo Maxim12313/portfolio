@@ -10,14 +10,14 @@ export default function About() {
       <br /><br />
       I began coding in
       <highlight> 2019</highlight> and have since tried my hand at an array of
-      different topics. I started with game development, experimented with AI,
-      visited web development, dabbled in cybersecurity, and tried some
-      competitive programming.
+      different topics. I originally started with game development, 
+      then visited web development, experimented with AI, dabbled in cybersecurity, and
+      then tried some competitive programming.
       <br /><br />
-      I am currently re exploring
+      I am currently diving back into
       <highlight> web development </highlight> deeper while honing my
-      algorithmic skills through regular{" "}
-      <highlight> competitive programming</highlight> contests.
+      algorithmic skills through regular
+      <highlight> competitive programming </highlight> contests.
     </p>    
   );
 
