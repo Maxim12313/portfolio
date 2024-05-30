@@ -1,7 +1,7 @@
 import Section from "./Section"
 
 export default function About() {
-  const number = "1.";
+  const number = "1. ";
   const description = "About Me";
   const content = (
     <p>

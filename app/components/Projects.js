@@ -10,8 +10,8 @@ import aiPuzzle from "../images/ai-puzzle.png"
 export default function Projects() {
   
   return (
-    <div className="flex flex-col w-1/2 items-start mt-40">
-      <Title number="2." description="Projects " name="projects"/>
+    <div className="flex flex-col w-1/2 items-start mb-40">
+      <Title number="2. " description="Projects " name="projects"/>
       <ProjectBox 
         name="Ultimate Tic Tac Toe Multiplayer" 
         description="Web game featuring real time multiplayer with chat, AI 

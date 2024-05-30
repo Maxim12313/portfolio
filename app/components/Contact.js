@@ -1,7 +1,7 @@
 import Section from "./Section"
 
 export default function Contact() {
-  const number = "3.";
+  const number = "3. ";
   const description = "Contact Me";
   const content = (
     <div className="flex flex-row w-full items-center">
