@@ -16,7 +16,12 @@
   --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
 
-body, h1, h2, h3, h4, h5, h6, p {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a {
   color: var(--white);
   font-family: var(--font-sans);
   line-height: 1.1;
@@ -76,4 +81,8 @@ p {
   height: 1px;
   margin-left: 25px;
   background-color: var(--lightest-slate);
+}
+
+.blur-color {
+  background-color: #252838da;
 }

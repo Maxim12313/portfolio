@@ -26,6 +26,7 @@ export default function About() {
       number={number}
       description={description}
       content={content}
+      name="about"
     />      
   );
 }

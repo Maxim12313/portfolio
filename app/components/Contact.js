@@ -25,10 +25,11 @@ export default function Contact() {
   );
 
   return (
-    <Section 
-      number={number}
-      description={description}
-      content={content}
-    />      
+      <Section 
+        number={number}
+        description={description}
+        content={content}
+        name="contact"
+      />      
   );
 }
