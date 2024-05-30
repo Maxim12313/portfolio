@@ -10,7 +10,7 @@ import aiPuzzle from "../images/ai-puzzle.png"
 export default function Projects() {
   
   return (
-    <div className="flex flex-col w-1/2 items-start mb-10">
+    <div className="flex flex-col w-1/2 items-start mb-40">
       <Title number="2." description="Projects" />
       <ProjectBox 
         name="Ultimate Tic Tac Toe Multiplayer" 
@@ -53,6 +53,7 @@ export default function Projects() {
                      Consistently found optimal solutions in high speeds."
         image={aiPuzzle}
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
+        link="https://github.com/Maxim12313/ai-puzzle-solver"
       />
     </div>
   );
