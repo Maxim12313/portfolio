@@ -4,7 +4,9 @@ export default function Navbar() {
       <div className="flex p-8 w-dvw">
         <div className="flex w-full flex-row justify-between">
           <div>
-            <h2>Maxim Kim</h2>
+            <a href=".">
+              <h2>Maxim Kim</h2>
+            </a>
           </div>
           <div className="flex flex-row space-x-5">
             <a href="#about">About</a>
