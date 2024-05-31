@@ -11,15 +11,14 @@ export default function Contact() {
           ecstatic to receive communication about any potential positions. 
         </p>
       </div>
-      <div className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl">
-          <a 
-            className="font-mono text-color4 text-xl flex-wrap"
-            href="mailto:maximk@umich.edu"
-            target="_blank"
-          >
-          Say Hi
-          </a>
-      </div>
+      <a
+        className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl
+                   font-mono text-color4 text-xl flex-wrap btn font-bold"
+        href="mailto:maximk@umich.edu"
+        target="_blank"
+      >
+        Say Hi
+      </a>
     </div>
 
   );
