@@ -19,6 +19,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
+  cursor: none;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a {
@@ -122,10 +123,11 @@ p {
 .btn:hover {
   background-color: var(--color4);
   color: var(--color1);
+  box-shadow: -5px -5px var(--color5);
 }
 
 .projectBox {
-  transition-duration: 300ms;
+  transition-duration: 200ms;
   border-color: transparent;
   border-width: 1px;
 }
@@ -143,3 +145,4 @@ p {
 .projectBox:hover h2 {
   color: var(--color4);  
 }
+
