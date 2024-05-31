@@ -9,6 +9,7 @@ export default function Navbar() {
             </a>
           </div>
           <div className="flex flex-row space-x-5">
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
