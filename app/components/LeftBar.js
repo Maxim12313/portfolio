@@ -29,7 +29,7 @@ export default function LeftBar() {
   
   const links = ["#home", "#about", "#projects", "#contact"];
   const linkElements = links.map((link, key) => {
-    const width = link == active ? "w-[125%]" : "w-[100%]";
+    const width = link == active ? "w-[135%]" : "w-[100%]";
     console.log(link + " " + active);
     return (
       <a key={key} href={link} className={`bar-container ${width}`}>

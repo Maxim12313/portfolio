@@ -12,7 +12,7 @@ export default function Contact() {
           <br /><br />
           Please contact me at 
           <a 
-            className="text-color4 text-15px p-3 duration-200 hover:text-[17px] font-mono"
+            className="text-color4 text-[20px] p-3 duration-200 hover:text-[24px]"
             href="mailto:maximk@umich.edu"
             target="_blank"
           >
@@ -21,7 +21,7 @@ export default function Contact() {
         </p>
       </div>
       <a
-        className="p-6 border-2 border-color4 mx-5 min-w-fit rounded-xl
+         className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-x>
                    font-mono text-color4 text-xl flex-wrap btn font-bold"
         href="mailto:maximk@umich.edu"
         target="_blank"
