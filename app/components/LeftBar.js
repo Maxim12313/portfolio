@@ -9,14 +9,12 @@ export default function LeftBar() {
     
     const handleScroll = () => {
       const sections = document.querySelectorAll("a[name]");
-      const currY = window.scrollY - window.innerHeight;
+      const currY = window.scrollY + window.innerHeight / 2;
 
-      let found = false;
       sections.forEach((section) => {
         const y = section.offsetTop;
-        if (currY < y && !found) {
+        if (y < currY) { //last where we're ahead of
           setActive("#" + section.getAttribute("name"));
-          found = true;
         }
       });
     };
