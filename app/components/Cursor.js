@@ -10,15 +10,21 @@ export default function Cursor() {
     top: mouseY,
     left: mouseX,
     transform: "translate(-50%,-50%)",
-    boxShadow: "0 0 200px red"
   };
   
+  
   const cursor = (  
-    <div 
-      className="fixed p-10 rounded-full bg-transparent z-20 pointer-events-none 
-                  "
-      style={locationStyle}
-    >
+    <div>
+      <div 
+        className="fixed p-5 border-2 border-white rounded-full z-20 pointer-events-none
+                   "
+        style={locationStyle}
+      />
+      <div 
+        className="fixed p-1 bg-white rounded-full z-20 pointer-events-none"
+        style={locationStyle}
+      />
+
     </div>
   );
 
@@ -29,7 +35,7 @@ export default function Cursor() {
     };
 
     window.addEventListener("mousemove", mouseMove);
-    
+
     return () => {
       window.removeEventListener("mousemove", mouseMove);
     }

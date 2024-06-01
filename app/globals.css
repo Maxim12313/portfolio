@@ -19,7 +19,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
-  cursor: pointer;
+  cursor: none;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a {
@@ -144,4 +144,9 @@ p {
 
 .projectBox:hover h2 {
   color: var(--color4);  
+}
+
+
+.cursor {
+  
 }
