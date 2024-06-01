@@ -17,25 +17,25 @@ export default function Navbar() {
           <div className="flex flex-row space-x-5">
             <a 
               href="#home" 
-              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+              className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
              Home
             </a>
             <a 
               href="#about" 
-              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+              className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
              About
             </a>
             <a 
               href="#projects" 
-              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+              className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
              Projects
             </a>
             <a 
               href="#contact" 
-              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+              className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
              Contact
             </a>
