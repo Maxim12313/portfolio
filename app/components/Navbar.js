@@ -4,15 +4,41 @@ export default function Navbar() {
       <div className="flex p-8 w-dvw">
         <div className="flex w-full flex-row justify-between">
           <div>
-            <a href=".">
-              <h2>Maxim Kim</h2>
-            </a>
+            <h2>
+              <a 
+                href="."
+                className="border-color4 duration-100
+                           hover:border-b-2"
+              >
+                Maxim Kim
+              </a>
+            </h2>
           </div>
           <div className="flex flex-row space-x-5">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a 
+              href="#home" 
+              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+            >
+             Home
+            </a>
+            <a 
+              href="#about" 
+              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+            >
+             About
+            </a>
+            <a 
+              href="#projects" 
+              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+            >
+             Projects
+            </a>
+            <a 
+              href="#contact" 
+              className="hover:text-color4 hover:translate-y-[-2px] duration-200"
+            >
+             Contact
+            </a>
           </div>
         </div>
       </div>

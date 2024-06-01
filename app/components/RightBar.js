@@ -6,7 +6,7 @@ export default function RightBar() {
     >
       <a 
         href="https://github.com/Maxim12313" target="_blank"
-        className="fill-lightest-slate hover:fill-color4 p-3"
+        className="icon"
       >
         <svg
           className="fill-inherit"
@@ -20,7 +20,7 @@ export default function RightBar() {
       </a>
       <a
         href="https://www.linkedin.com/in/maxim-kim-b057bb240/" target="_blank"
-        className="fill-lightest-slate hover:fill-color4 p-3"
+        className="icon"
       >
         <svg
           className="fill-inherit"
@@ -34,7 +34,7 @@ export default function RightBar() {
       </a>
       <a 
         href="https://leetcode.com/u/maxi24/" target="_blank"
-        className="fill-lightest-slate hover:fill-color4 p-3"
+        className="icon"
       >
         <svg
           className="fill-inherit"
@@ -48,7 +48,7 @@ export default function RightBar() {
       </a>
       <a 
         href="mailto:maximk@umich.edu" target="_blank"
-        className="fill-lightest-slate hover:fill-color4 p-3"
+        className="icon"
       >
         <svg
           className="fill-inherit"

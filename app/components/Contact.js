@@ -12,8 +12,7 @@ export default function Contact() {
           <br /><br />
           Please contact me at 
           <a 
-            className="text-color4 text-[20px] p-3 duration-200 hover:text-[24px] 
-                       tracking-widest"
+            className="text-color4 text-[20px] p-3 tracking-widest"
             href="mailto:maximk@umich.edu"
             target="_blank"
           >

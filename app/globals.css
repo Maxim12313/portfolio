@@ -117,13 +117,14 @@ p {
 .btn {
   background-color: transparent;
   color: var(--color4);
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .btn:hover {
   background-color: var(--color4);
   color: var(--color1);
-  box-shadow: -7px -7px var(--color5);
+  box-shadow: -5px -5px var(--color5);
+  translate: 5px 5px;
 }
 
 .projectBox {
@@ -134,8 +135,8 @@ p {
 
 .projectBox:hover {
   border-color: var(--color2);
-  border-top-width:3px;
-  border-left-width:3px;
+  box-shadow: -1px -1px var(--color2);
+  translate: 3px 3px;
 }
 
 .projectBox h2 {
@@ -146,7 +147,13 @@ p {
   color: var(--color4);  
 }
 
+.icon {
+  fill: var(--lightest-slate);
+  padding: 12px;
+  transition-duration: 300ms;
+}
 
-.cursor {
-  
+.icon:hover {
+  fill: var(--color4);
+  translate: -1px -5px;
 }
