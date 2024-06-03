@@ -36,14 +36,27 @@ export default function Cursor() {
 
     const mouseOut = (e) => {
       setShowing(false);
-    }
+    };
+
+    const mouseClick = (e) => {
+      const div = document.createElement("div");
+      div.className = "clickEffect";
+      div.style.top = e.clientY + "px";
+      div.style.left = e.clientX + "px";
+      document.body.append(div);
+      div.addEventListener("animationend", () => {
+        document.body.removeChild(div);
+      });
+    };
 
     window.addEventListener("mousemove", mouseMove);
     window.addEventListener("mouseout", mouseOut);
+    window.addEventListener("click", mouseClick);
 
     return () => {
       window.removeEventListener("mousemove", mouseMove);
       window.removeEventListener("mouseout", mouseOut);
+      window.removeEventListener("click", mouseClick);
     }
   }, []);
 

@@ -157,3 +157,25 @@ p {
   fill: var(--color4);
   translate: -1px -5px;
 }
+
+.clickEffect {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 20;
+  animation: clickEffect 400ms ease-out;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes clickEffect {
+  0% {
+    opacity: 1;
+    padding: 0 0 0 0;
+    border-width: 0.5rem;
+  }
+  100% {
+    opacity: 0;
+    padding: 6em 6em 6em 6em;
+    border-width: 0;
+  }
+}
