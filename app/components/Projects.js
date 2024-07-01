@@ -1,6 +1,7 @@
 import ProjectBox from "./ProjectBox"
 import Title from "./Title"
 
+import typeChallenger from "../images/type-challenger.png"
 import utt from "../images/utt.png"
 import pitchPilot from "../images/pitch-pilot.png"
 import oldWebsite from "../images/old-website.png"
@@ -12,6 +13,13 @@ export default function Projects() {
   return (
     <div className="flex flex-col w-1/2 items-start mb-40">
       <Title number="2. " description="Projects " name="projects"/>
+      <ProjectBox 
+        name="Type Challenger" 
+        description="Reactive Typing Game"
+        image={typeChallenger}
+        tags={["Javascript", "SQLite", "Express", "React", "Next.js", "Docker", "Google-Cloud", "Tailwind-CSS"]}
+        link="https://type-challenger-frontend.vercel.app/singleplayer"
+      />
       <ProjectBox 
         name="Ultimate Tic Tac Toe Multiplayer" 
         description="Web game featuring real time multiplayer with chat, AI 
