@@ -9,15 +9,9 @@ export default function About() {
       interest, which I occasionally share on the internet.
       <br /><br />
       I began coding in
-      <highlight> 2019</highlight> and have since tried my hand at an array of
-      different topics. I originally started with game development, 
-      then visited web development, experimented with AI, dabbled in cybersecurity, and
-      then tried some competitive programming.
+      <highlight> 2019</highlight> and have focused in <highlight> Full-Stack Web Development </highlight>
       <br /><br />
-      I am currently diving back into
-      <highlight> web development </highlight> while honing my
-      algorithmic skills through regular
-      <highlight> competitive programming </highlight> contests.
+      I also enjoy <highlight>competitive programming</highlight> and practice on platforms like LeetCode and Codeforces
     </p>    
   );
 

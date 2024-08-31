@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 z-10 backdrop-blur-lg blur-color">
-      <div className="flex p-8 w-dvw">
+      <div className="flex py-8 px-10 w-dvw">
         <div className="flex w-full flex-row justify-between">
           <div>
             <h2>

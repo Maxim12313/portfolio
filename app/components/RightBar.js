@@ -1,7 +1,7 @@
 export default function RightBar() {
   return (
     <div
-      className="fixed right-16 bottom-0 vertical-line min-h-[40%] flex flex-col 
+      className="onlyBig fixed right-16 bottom-0 vertical-line min-h-[40%] flex flex-col 
                     items-center justify-start"
     >
       <a 

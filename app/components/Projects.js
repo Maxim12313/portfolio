@@ -7,6 +7,8 @@ import pitchPilot from "../images/pitch-pilot.png"
 import oldWebsite from "../images/old-website.png"
 import aiMultiplayer from "../images/ai-multiplayer.png"
 import aiPuzzle from "../images/ai-puzzle.png"
+import passwordManager from "../images/password-manager.png"
+import rsaDixon from "../images/RSA-Dixon.png"
 
 export default function Projects() {
   
@@ -63,6 +65,23 @@ export default function Projects() {
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
         link="https://github.com/Maxim12313/ai-puzzle-solver"
       />
+	  <ProjectBox
+		name="Password Manager"
+	  	description="Programmed a password manager with encryption for confidentiality, a custom 
+	  				 file management protocol for efficiency, and checksums to ensure integrity of data"
+	  	tags={["Java", "Encryption", "Hashing", "UI", "Checksum", "File Management"]}
+	  	link="https://github.com/Maxim12313/password-manager"
+	  	image={passwordManager}
+	  />
+	  <ProjectBox
+	  	name="RSA Encryption and Dixon Factoring"
+	  	description="Implemented the RSA encryption algorithm, as well as its vulnerability, Dixon Factoring, 
+	  				which could feasably crack RSA keys up to 128 bits long"
+	  	tags={["Java", "Encryption", "Algorithm", "Math"]}
+	  	link="https://github.com/Maxim12313/RSA-Encryption-And-Dixon-Factoring"
+	  	image={rsaDixon}
+	  />
+
     </div>
   );
 }

@@ -1,6 +1,6 @@
 export default function BigText() {
   return (
-    <div className="flex flex-col w-full min-h-dvh items-center mx-5 mt-52">
+    <div className="flex flex-col w-full min-h-dvh items-center mt-52">
       <a name="home"></a>
       <div className="flex flex-col justify-start items-start">
         <h4 className="p-1">Hi, my name is</h4>

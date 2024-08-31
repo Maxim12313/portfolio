@@ -38,7 +38,7 @@ export default function LeftBar() {
   });
 
   return (
-    <div className="fixed left-16 bottom-0 min-h-[60%] flex flex-col items-center justify-start
+    <div className="onlyBig fixed left-16 bottom-0 min-h-[60%] flex flex-col items-center justify-start
                     vertical-line w-20 ml-0 ">
       { linkElements }
     </div>
