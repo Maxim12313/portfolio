@@ -1,4 +1,4 @@
-import Section from "./Section"
+import Section from "./Section";
 
 export default function Contact() {
   const number = "3.";
@@ -7,11 +7,13 @@ export default function Contact() {
     <div className="flex flex-row w-full items-center">
       <div>
         <p>
-          I am currently looking for software engineering internships, so I would be
-          ecstatic to receive communication about any potential positions. 
-          <br /><br />
-          Please contact me at 
-          <a 
+          I am currently looking for software engineering internships, so I
+          would be ecstatic to receive communication about any potential
+          positions.
+          <br />
+          <br />
+          Please contact me at
+          <a
             className="text-color4 text-[20px] p-3 tracking-widest"
             href="mailto:maximk@umich.edu"
             target="_blank"
@@ -21,7 +23,7 @@ export default function Contact() {
         </p>
       </div>
       <a
-         className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl
+        className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl
                    font-mono text-color4 text-xl flex-wrap btn font-bold"
         href="mailto:maximk@umich.edu"
         target="_blank"
@@ -29,15 +31,14 @@ export default function Contact() {
         Say Hi
       </a>
     </div>
-
   );
 
   return (
-      <Section 
-        number={number}
-        description={description}
-        content={content}
-        name="contact"
-      />      
+    <Section
+      number={number}
+      description={description}
+      content={content}
+      name="contact"
+    />
   );
 }

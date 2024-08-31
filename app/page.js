@@ -1,6 +1,6 @@
-import MainText from "./components/MainText"
-import BigText from "./components/BigText"
-import Footer from "./components/Footer"
+import MainText from "./components/MainText";
+import BigText from "./components/BigText";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (

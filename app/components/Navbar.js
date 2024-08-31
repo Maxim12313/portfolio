@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="flex w-full flex-row justify-between">
           <div>
             <h2>
-              <a 
+              <a
                 href="."
                 className="border-color4 duration-100
                            hover:border-b-2"
@@ -15,29 +15,29 @@ export default function Navbar() {
             </h2>
           </div>
           <div className="flex flex-row space-x-5">
-            <a 
-              href="#home" 
+            <a
+              href="#home"
               className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
-             Home
+              Home
             </a>
-            <a 
-              href="#about" 
+            <a
+              href="#about"
               className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
-             About
+              About
             </a>
-            <a 
-              href="#projects" 
+            <a
+              href="#projects"
               className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
-             Projects
+              Projects
             </a>
-            <a 
-              href="#contact" 
+            <a
+              href="#contact"
               className="hover:text-color4 hover:translate-y-[-4px] duration-200"
             >
-             Contact
+              Contact
             </a>
           </div>
         </div>

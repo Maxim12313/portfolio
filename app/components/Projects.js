@@ -1,37 +1,53 @@
-import ProjectBox from "./ProjectBox"
-import Title from "./Title"
+import ProjectBox from "./ProjectBox";
+import Title from "./Title";
 
-import typeChallenger from "../images/type-challenger.png"
-import utt from "../images/utt.png"
-import pitchPilot from "../images/pitch-pilot.png"
-import oldWebsite from "../images/old-website.png"
-import aiMultiplayer from "../images/ai-multiplayer.png"
-import aiPuzzle from "../images/ai-puzzle.png"
-import passwordManager from "../images/password-manager.png"
-import rsaDixon from "../images/RSA-Dixon.png"
+import typeChallenger from "../images/type-challenger.png";
+import utt from "../images/utt.png";
+import pitchPilot from "../images/pitch-pilot.png";
+import oldWebsite from "../images/old-website.png";
+import aiMultiplayer from "../images/ai-multiplayer.png";
+import aiPuzzle from "../images/ai-puzzle.png";
+import passwordManager from "../images/password-manager.png";
+import rsaDixon from "../images/RSA-Dixon.png";
 
 export default function Projects() {
-  
   return (
     <div className="flex flex-col w-1/2 items-start mb-40">
-      <Title number="2. " description="Projects " name="projects"/>
-      <ProjectBox 
-        name="Type Challenger" 
+      <Title number="2. " description="Projects " name="projects" />
+      <ProjectBox
+        name="Type Challenger"
         description="Reactive Typing Game"
         image={typeChallenger}
-        tags={["Javascript", "SQLite", "Express", "React", "Next.js", "Docker", "Google-Cloud", "Tailwind-CSS"]}
+        tags={[
+          "Javascript",
+          "SQLite",
+          "Express",
+          "React",
+          "Next.js",
+          "Docker",
+          "Google-Cloud",
+          "Tailwind-CSS",
+        ]}
         link="https://type-challenger-frontend.vercel.app/singleplayer"
       />
-      <ProjectBox 
-        name="Ultimate Tic Tac Toe Multiplayer" 
+      <ProjectBox
+        name="Ultimate Tic Tac Toe Multiplayer"
         description="Web game featuring real time multiplayer with chat, AI 
         single player, and same device pass and play for Ultimate Tic Tac Toe."
         image={utt}
-        tags={["Javascript", "Socket.io", "React", "Next.js", "Docker", "Google-Cloud", "Tailwind-CSS"]}
+        tags={[
+          "Javascript",
+          "Socket.io",
+          "React",
+          "Next.js",
+          "Docker",
+          "Google-Cloud",
+          "Tailwind-CSS",
+        ]}
         link="https://ultimate-tic-tac-toe-gamma.vercel.app/"
       />
-      <ProjectBox 
-        name="Pitch Pilot" 
+      <ProjectBox
+        name="Pitch Pilot"
         description="Obstacle game where the player is controlled by singing pitch. Programmed
                      directly into a computer board and connected to input/output devices 
                      with our own device drivers written in a custom class assembly."
@@ -39,12 +55,20 @@ export default function Projects() {
         tags={["Assembly", "IO-Driver", "Non-Blocking", "Collaborative"]}
         link="https://github.com/engr100/annicec.avisanch.jaydelin.maximk"
       />
-      <ProjectBox 
-        name="Maxim's Game Hub" 
+      <ProjectBox
+        name="Maxim's Game Hub"
         description="Collection of my high school web games. Mostly original single player
                      games and some simulations like predator-prey"
         image={oldWebsite}
-        tags={["Javascript", "CSS", "HTML", "Express", "REST-API", "2D-Canvas", "Google-Cloud"]}
+        tags={[
+          "Javascript",
+          "CSS",
+          "HTML",
+          "Express",
+          "REST-API",
+          "2D-Canvas",
+          "Google-Cloud",
+        ]}
         link="https://maximkim.com"
       />
       <ProjectBox
@@ -55,7 +79,7 @@ export default function Projects() {
         image={aiMultiplayer}
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
         link="https://github.com/Maxim12313/ai-multiplayer-game-playing"
-      />  
+      />
       <ProjectBox
         name="AI Puzzle Playing"
         description="Implemented the A* Search, Depth Limited BFS, Iterative Deepening DFS algorithms
@@ -65,23 +89,29 @@ export default function Projects() {
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
         link="https://github.com/Maxim12313/ai-puzzle-solver"
       />
-	  <ProjectBox
-		name="Password Manager"
-	  	description="Programmed a password manager with encryption for confidentiality, a custom 
+      <ProjectBox
+        name="Password Manager"
+        description="Programmed a password manager with encryption for confidentiality, a custom 
 	  				 file management protocol for efficiency, and checksums to ensure integrity of data"
-	  	tags={["Java", "Encryption", "Hashing", "UI", "Checksum", "File Management"]}
-	  	link="https://github.com/Maxim12313/password-manager"
-	  	image={passwordManager}
-	  />
-	  <ProjectBox
-	  	name="RSA Encryption and Dixon Factoring"
-	  	description="Implemented the RSA encryption algorithm, as well as its vulnerability, Dixon Factoring, 
+        tags={[
+          "Java",
+          "Encryption",
+          "Hashing",
+          "UI",
+          "Checksum",
+          "File Management",
+        ]}
+        link="https://github.com/Maxim12313/password-manager"
+        image={passwordManager}
+      />
+      <ProjectBox
+        name="RSA Encryption and Dixon Factoring"
+        description="Implemented the RSA encryption algorithm, as well as its vulnerability, Dixon Factoring, 
 	  				which could feasably crack RSA keys up to 128 bits long"
-	  	tags={["Java", "Encryption", "Algorithm", "Math"]}
-	  	link="https://github.com/Maxim12313/RSA-Encryption-And-Dixon-Factoring"
-	  	image={rsaDixon}
-	  />
-
+        tags={["Java", "Encryption", "Algorithm", "Math"]}
+        link="https://github.com/Maxim12313/RSA-Encryption-And-Dixon-Factoring"
+        image={rsaDixon}
+      />
     </div>
   );
 }
