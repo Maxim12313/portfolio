@@ -13,7 +13,7 @@ export default function About() {
       <highlight> Full-Stack Web Development </highlight>
       <br />
       <br />I also enjoy <highlight>competitive programming</highlight> and
-      practice on platforms like LeetCode and Codeforces
+      practice on platforms like LeetCode and Codeforce
     </p>
   );
 
