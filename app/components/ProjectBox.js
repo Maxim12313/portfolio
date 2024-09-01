@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-export default function ProjectBox({ name, description, image, tags, link }) {
+export default function ProjectBox({
+  name,
+  description,
+  image,
+  tags,
+  link,
+  date,
+}) {
   const tagItems = tags.map((x, i) => {
     return (
       <div className="py-[2px] px-1 bg-color5 rounded-lg m-1" key={i}>
@@ -24,7 +31,10 @@ export default function ProjectBox({ name, description, image, tags, link }) {
         className="rounded-lg max-w-20"
       />
       <div className="flex flex-col space-y-2">
-        <h2 className="text-xl text-lightest-slate">{name}</h2>
+        <div className="flex flex-row justify-between">
+          <h2 className="text-xl text-lightest-slate">{name}</h2>
+          <h2 className="text-base">{date}</h2>
+        </div>
         <p>{description}</p>
         <div className="flex flex-row flex-wrap justify-start items-center">
           {tagItems}

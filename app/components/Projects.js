@@ -29,6 +29,7 @@ export default function Projects() {
           "Tailwind-CSS",
         ]}
         link="https://type-challenger-frontend.vercel.app/singleplayer"
+        date="July 2024"
       />
       <ProjectBox
         name="Ultimate Tic Tac Toe Multiplayer"
@@ -45,6 +46,7 @@ export default function Projects() {
           "Tailwind-CSS",
         ]}
         link="https://ultimate-tic-tac-toe-gamma.vercel.app/"
+        date="May 2024"
       />
       <ProjectBox
         name="Pitch Pilot"
@@ -54,6 +56,7 @@ export default function Projects() {
         image={pitchPilot}
         tags={["Assembly", "IO-Driver", "Non-Blocking", "Collaborative"]}
         link="https://github.com/engr100/annicec.avisanch.jaydelin.maximk"
+        date="Mar 2024"
       />
       <ProjectBox
         name="Maxim's Game Hub"
@@ -70,6 +73,7 @@ export default function Projects() {
           "Google-Cloud",
         ]}
         link="https://maximkim.com"
+        date="Sep 2022"
       />
       <ProjectBox
         name="AI Multiplayer Game Playing"
@@ -79,6 +83,7 @@ export default function Projects() {
         image={aiMultiplayer}
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
         link="https://github.com/Maxim12313/ai-multiplayer-game-playing"
+        date="Nov 2023"
       />
       <ProjectBox
         name="AI Puzzle Playing"
@@ -88,6 +93,7 @@ export default function Projects() {
         image={aiPuzzle}
         tags={["Java", "Algorithm", "AI", "Heuristic"]}
         link="https://github.com/Maxim12313/ai-puzzle-solver"
+        date="Aug 2023"
       />
       <ProjectBox
         name="Password Manager"
@@ -103,6 +109,7 @@ export default function Projects() {
         ]}
         link="https://github.com/Maxim12313/password-manager"
         image={passwordManager}
+        date="Jul 2023"
       />
       <ProjectBox
         name="RSA Encryption and Dixon Factoring"
@@ -111,6 +118,7 @@ export default function Projects() {
         tags={["Java", "Encryption", "Algorithm", "Math"]}
         link="https://github.com/Maxim12313/RSA-Encryption-And-Dixon-Factoring"
         image={rsaDixon}
+        date="May 2023"
       />
     </div>
   );
