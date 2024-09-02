@@ -186,18 +186,21 @@ p {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 899px) {
+
+  /* Corrected from 899x to 899px */
   .onlyBig {
     display: none;
   }
 
   .widthManager {
-    padding: 50px;
+    padding: 25px;
     width: 100%;
   }
+
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .onlySmall {
     display: none;
   }
@@ -205,5 +208,28 @@ p {
   .widthManager {
     /* padding: 300px; */
     width: 50%;
+  }
+
+}
+
+@media (max-width: 499px) {
+  .fullName {
+    display: none;
+  }
+
+  .navSpacing>* {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  .shortName {
+    display: none;
+  }
+
+  .navSpacing>* {
+    font-size: 18px;
+    padding-left: 15px;
   }
 }

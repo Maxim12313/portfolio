@@ -1,20 +1,27 @@
 export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 z-10 backdrop-blur-lg blur-color">
-      <div className="flex py-8 px-8 w-dvw">
+      <div className="flex py-8 px-6 w-dvw">
         <div className="flex w-full flex-row justify-between items-center">
           <div>
             <h2>
               <a
                 href="."
-                className="border-color4 duration-100
+                className="fullName border-color4 duration-100
                            hover:border-b-2"
               >
                 Maxim Kim
               </a>
+              <a
+                href="."
+                className="shortName border-color4 duration-100
+                           hover:border-b-2"
+              >
+                Maxim
+              </a>
             </h2>
           </div>
-          <div className="flex flex-row space-x-5">
+          <div className="flex flex-row navSpacing">
             <a
               href="#home"
               className="hover:text-color4 hover:translate-y-[-4px] duration-200"
