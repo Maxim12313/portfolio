@@ -30,7 +30,7 @@ export default function ProjectBox({
         alt="preview image"
         className="rounded-lg max-w-20"
       />
-      <div className="flex flex-col space-y-2">
+      <div className="flex flex-col space-y-2 w-full">
         <div className="flex flex-row justify-between">
           <h2 className="text-xl text-lightest-slate">{name}</h2>
           <h2 className="text-base">{date}</h2>

@@ -14,7 +14,7 @@ export default function Cursor() {
   };
 
   const cursor = (
-    <div>
+    <div className>
       <div
         className="fixed p-5 border-2 border-white rounded-full z-20 pointer-events-none
                    "
