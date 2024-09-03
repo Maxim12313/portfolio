@@ -1,6 +1,18 @@
+"use client";
+
+import { useState } from "react";
 import Section from "./Section";
+import FormSend from "./EmailForm";
 
 export default function Contact() {
+  const [copyVisible, setCopyVisible] = useState(0);
+
+  function handleCopy() {
+    navigator.clipboard.writeText("maximk@umich.edu");
+    setCopyVisible(1);
+    setTimeout(() => setCopyVisible(0), 700);
+  }
+
   const number = "3.";
   const description = "Contact Me";
   const content = (
@@ -12,33 +24,35 @@ export default function Contact() {
           positions.
           <br />
           <br />
-          Please contact me at
-          <a
-            className="text-color4 text-[20px] p-3 tracking-widest"
-            href="mailto:maximk@umich.edu"
-            target="_blank"
+          Please contact me at &nbsp;
+          <button
+            className={
+              "text-color4 tracking-widest underline underline-offset-4"
+            }
+            onClick={handleCopy}
           >
             maximk@umich.edu
-          </a>
+          </button>
+          <span
+            className="transition-opacity duration-500 text-green-300"
+            style={{ opacity: copyVisible }}
+          >
+            &nbsp; copied!
+          </span>
         </p>
       </div>
-      <a
-        className="p-5 border-2 border-color4 mx-5 min-w-fit rounded-xl
-                   font-mono text-color4 text-xl flex-wrap btn font-bold"
-        href="mailto:maximk@umich.edu"
-        target="_blank"
-      >
-        Say Hi
-      </a>
     </div>
   );
 
   return (
-    <Section
-      number={number}
-      description={description}
-      content={content}
-      name="contact"
-    />
+    <div className="flex flex-col w-full items-center bg-green space-y-16">
+      <Section
+        number={number}
+        description={description}
+        content={content}
+        name="contact"
+      />
+      <FormSend />
+    </div>
   );
 }

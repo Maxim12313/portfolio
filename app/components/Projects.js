@@ -12,7 +12,7 @@ import rsaDixon from "../images/RSA-Dixon.png";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col items-start mb-40 widthManager">
+    <div className="flex flex-col items-start widthManager">
       <Title number="2. " description="Projects " name="projects" />
       <ProjectBox
         name="Type Challenger"

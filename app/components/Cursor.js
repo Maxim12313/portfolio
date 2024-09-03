@@ -14,10 +14,9 @@ export default function Cursor() {
   };
 
   const cursor = (
-    <div className>
+    <div>
       <div
-        className="fixed p-5 border-2 border-white rounded-full z-20 pointer-events-none
-                   "
+        className="fixed p-5 border-2 border-white rounded-full z-20 pointer-events-none"
         style={locationStyle}
       />
       <div

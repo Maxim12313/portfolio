@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import LeftBar from "./components/LeftBar";
 import RightBar from "./components/RightBar";
 import Cursor from "./components/Cursor";
-import Keyboard from "./components/Keyboard";
 
 import Head from "next/head";
 
@@ -16,7 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex flex-col bg-color1">
-        <Keyboard />
         <Cursor />
         <Navbar />
         <LeftBar />

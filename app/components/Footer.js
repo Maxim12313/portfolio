@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full h-20 flex flex-col items-center justify-center">
+    <footer className="w-full h-20 flex flex-col items-center justify-center mt-20">
       <div className="flex flex-col p-2 items-center">
         <div className="onlySmall flex flex-row items-center justify-start">
           <a
