@@ -24,9 +24,9 @@ export default function EmailForm() {
         a.current,
         {
           publicKey: "-U8_DjZ-EiLEjJJHj",
-          // limitRate: {
-          //   throttle: 3000,
-          // },
+          limitRate: {
+            throttle: 3000,
+          },
         },
       );
       console.log("happened");
