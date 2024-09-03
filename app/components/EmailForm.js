@@ -10,27 +10,29 @@ export default function EmailForm() {
     const a = form.current;
     e.preventDefault();
     if (!a.checkValidity()) {
+      setStatusMsg(null);
       a.reportValidity();
       return;
     }
 
     try {
       // please do not abuse key
+      console.log("entered");
       const response = await emailjs.sendForm(
         "service_fc5dlig",
         "template_73fr7et",
         a.current,
         {
           publicKey: "-U8_DjZ-EiLEjJJHj",
-          limitRate: {
-            throttle: 3000,
-          },
+          // limitRate: {
+          //   throttle: 3000,
+          // },
         },
       );
+      console.log("happened");
       const rect = document
         .getElementById("confetti-button")
         .getBoundingClientRect();
-      console.log(rect);
       confetti({
         particleCount: 150,
         spread: 60,
@@ -40,9 +42,9 @@ export default function EmailForm() {
         },
       });
       setStatusMsg("Success!");
-      form.current.reset();
+      a.reset();
     } catch (error) {
-      setStatusMsg(errror.text);
+      setStatusMsg(error.text);
     }
   }
 
