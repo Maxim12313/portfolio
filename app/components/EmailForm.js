@@ -21,7 +21,7 @@ export default function EmailForm() {
       const response = await emailjs.sendForm(
         "service_fc5dlig",
         "template_73fr7et",
-        a.current,
+        a,
         {
           publicKey: "-U8_DjZ-EiLEjJJHj",
           limitRate: {
@@ -29,7 +29,6 @@ export default function EmailForm() {
           },
         },
       );
-      console.log("happened");
       const rect = document
         .getElementById("confetti-button")
         .getBoundingClientRect();
