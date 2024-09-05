@@ -4,10 +4,11 @@ import LeftBar from "./components/LeftBar";
 import RightBar from "./components/RightBar";
 import Cursor from "./components/Cursor";
 
-import Head from "next/head";
+const isProduction = process.env.NODE_ENV == "production";
+const url = isProduction ? "https://maximkim.dev" : "http://localhost:3000";
 
 export const metadata = {
-  metadataBase: new URL("https://maximkim.dev"),
+  metadataBase: new URL(url),
   title: "Maxim Kim | Portfolio",
   description: "Projects",
   openGraph: {
