@@ -7,7 +7,7 @@ import Cursor from "./components/Cursor";
 import Head from "next/head";
 
 export const metadata = {
-  metadataBase: new URL("localhost:3000"),
+  metadataBase: new URL("https://maximkim.dev"),
   title: "Maxim Kim | Portfolio",
   description: "Projects",
   openGraph: {
