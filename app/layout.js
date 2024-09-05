@@ -7,8 +7,15 @@ import Cursor from "./components/Cursor";
 import Head from "next/head";
 
 export const metadata = {
+  metadataBase: new URL("localhost:3000"),
   title: "Maxim Kim | Portfolio",
   description: "Projects",
+  openGraph: {
+    images: "/public/opengraph-image.png",
+  },
+  twitter: {
+    images: "/public/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {
