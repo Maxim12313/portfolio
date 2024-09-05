@@ -11,10 +11,10 @@ export const metadata = {
   title: "Maxim Kim | Portfolio",
   description: "Projects",
   openGraph: {
-    images: "/public/opengraph-image.png",
+    images: "/opengraph-image.png",
   },
   twitter: {
-    images: "/public/opengraph-image.png",
+    images: "/twitter-image.png",
   },
 };
 
