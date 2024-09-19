@@ -86,7 +86,7 @@ h4 {
 p {
 	line-height: 1.5;
 	font-size: medium;
-	color: var(--light-slate);
+	color: var(--white);
 }
 
 .bar-container {

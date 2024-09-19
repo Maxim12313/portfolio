@@ -33,8 +33,8 @@ export default function Projects() {
       />
       <ProjectBox
         name="Ultimate Tic Tac Toe Multiplayer"
-        description="Web game featuring real time multiplayer with chat, AI 
-        single player, and same device pass and play for Ultimate Tic Tac Toe."
+        description="Web game featuring real time multiplayer with chat and same device pass and play 
+				for Ultimate Tic Tac Toe (some bugs)"
         image={utt}
         tags={[
           "Javascript",
@@ -52,7 +52,7 @@ export default function Projects() {
         name="Pitch Pilot"
         description="Obstacle game where the player is controlled by singing pitch. Programmed
                      directly into a computer board and connected to input/output devices 
-                     with our own device drivers written in a custom class assembly."
+                     with our own device drivers written in a custom class assembly"
         image={pitchPilot}
         tags={["Assembly", "IO-Driver", "Non-Blocking", "Collaborative"]}
         link="https://github.com/engr100/annicec.avisanch.jaydelin.maximk"
