@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 export default function MainText() {
   return (
-    <div className="w-full flex flex-col items-center space-y-40">
+    <div className="w-full flex flex-col items-center space-y-32">
       <About />
       <Projects />
       <Contact />

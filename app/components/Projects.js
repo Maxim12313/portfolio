@@ -9,11 +9,64 @@ import aiMultiplayer from "../images/ai-multiplayer.png";
 import aiPuzzle from "../images/ai-puzzle.png";
 import passwordManager from "../images/password-manager.png";
 import rsaDixon from "../images/RSA-Dixon.png";
+import gameEngine from "../images/game-engine.png";
+import autodocPipeline from "../images/autodoc-pipeline.png";
+import resumeRag from "../images/resume-rag.png";
 
 export default function Projects() {
   return (
     <div className="flex flex-col items-start widthManager">
       <Title number="2. " description="Projects " name="projects" />
+      <ProjectBox
+        name="C++ Game Engine"
+        description="Built on top of OpenGL for high performant 3D/2D batched rendering. Includes an Entity Component System 
+        built from scratch based on ENTT groups and runtime filtering for cache friendly access, high code reusability, and easily 
+        parallelizable routines. Currently working on adding multiplayer support and building a full game demo"
+        image={gameEngine}
+        tags={[
+          "Threading",
+          "Networking",
+          "OpenGL",
+          "Performance",
+          "Math",
+          "Doxygen",
+          "CMake",
+          "C++",
+        ]}
+        link="https://github.com/Maxim12313/super-game-engine"
+        date="June 2025"
+      />
+      <ProjectBox
+        name="Autodoc Pipeline: Ally Bank Internship"
+        description="Gitlab pipeline that inspects projects code, recursively adds documentation to each file with an LLM,
+        and publishes documentation to the repo's gitlab pages. To fetch good context, it constructs a 
+        dependency graph of the project code. It documents dependencies first. Then their documentation 
+        is used to document files that depend on them. It extracts docstrings and function signatures as context by recursing over the AST of these processed files.
+        "
+        image={autodocPipeline}
+        tags={[
+          "Python",
+          "Gitlab CI",
+          "Sphinx",
+          "LLM",
+          "Tree-Sitter",
+          "Graph",
+          "Doxygen",
+        ]}
+        link=""
+        date="May 2025"
+      />
+
+      <ProjectBox
+        name="Resume RAG Tool: Project Lead MDST"
+        description="Retrieval Augment Generation (RAG) system that takes in resumes and maintains a chunked embedding database of each resume. In the Streamlit chat bot frontend, 
+        you make queries which are lexically and semantically compared over the database to extract the top K relevant resumes, which are then inspected by an LLM and output a response"
+        image={resumeRag}
+        tags={["Python", "Streamlit", "Postgresql", "LLM", "Embeddings"]}
+        link="https://github.com/Maxim12313/resume-screener?tab=readme-ov-file"
+        date="May 2025"
+      />
+
       <ProjectBox
         name="Type Challenger"
         description="Reactive Typing Game"

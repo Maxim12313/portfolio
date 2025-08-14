@@ -5,17 +5,16 @@ export default function About() {
   const description = "About Me";
   const content = (
     <p>
-      In my free time, I enjoy working on personal projects and learning new
-      tools. I program comfortably in C/C++, Javascript, Python, and
-      occasionally Java.
+      I program primarily in <highlight>C/C++</highlight> and
+      <highlight> Python</highlight> and enjoy work on large performant
+      <highlight> systems</highlight> and highly
+      <highlight> algorithmic</highlight> code.
       <br />
-      <br />I work on a variety of things depending on what catches my interest,
-      but my skillset is best suited to{" "}
-      <highlight> Full-Stack Web Development </highlight>
+      <br />I enjoy <highlight>Game Making</highlight>, particularly simple,
+      fast paced games with infinite difficulty scaling
       <br />
-      <br />I also enjoy <highlight>Competitive Programming</highlight> on the
-      side and have achieved top 5% Knight on LeetCode and Specialist on
-      Codeforces
+      <br />I love <highlight>Competitive Programming</highlight> and compete
+      for my university in the <highlight>ICPC</highlight>
     </p>
   );
 
